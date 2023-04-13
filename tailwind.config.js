@@ -9,6 +9,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -21,6 +22,9 @@ module.exports = {
         'banner19/7': '19 / 7',
         'collection11/14':'11/14'
       },
+      fontFamily:{
+        jost:['Jost', 'sans-serif']
+      }
 
     },
   },

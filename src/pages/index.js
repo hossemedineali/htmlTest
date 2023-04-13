@@ -10,7 +10,7 @@ const jost = Jost({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className=" flex min-h-screen w-full relative  bg-white flex-col ">
+    <main className="font-jost flex min-h-screen w-full relative  bg-white flex-col ">
         <Header/>
         <Banner/>
         <Middle/>
